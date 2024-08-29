@@ -53,7 +53,7 @@ function generateProductCard(product) {
             <h3>${product.name}</h3>
             <p>${product.description}</p>
             <p>$${product.price}</p>
-            <a href="product.html?id=${product._id}">View Details</a>
+            <a href="product.html?id=${product._id}"><p style="text-align:center;">View Details</p></a>
         </div>
     `;
 }

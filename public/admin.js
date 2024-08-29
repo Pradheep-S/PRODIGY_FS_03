@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>${product.description}</p>
                 <p>Price: $${product.price.toFixed(2)}</p>
                 <p>Category: ${product.category}</p>
-                <button onclick="deleteProduct('${product._id}')">Delete</button>
+                <button onclick="deleteProduct('${product._id}')">Delete</button> <br>
                 <button onclick="showUpdateForm('${product._id}', '${product.name}', '${product.description}', ${product.price}, '${product.imageUrl}', '${product.category}')">Update</button>
             </div>
         `).join('');
